@@ -4,7 +4,7 @@ var myName = "Vivian" // CODE HERE
 
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
-var faveNum = "25" // CODE HERE
+var faveNum = 25 // CODE HERE
 
 // #3 create a variable called 'lovesCode' and set it to true
 
@@ -12,11 +12,11 @@ var lovesCode = true // CODE HERE
 
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
-var me = "My name is " + myName + " and my favorite number is " + faveNum + "."// CODE HERE
+var me = "My name is " + myName + " and my favorite number is " + faveNum// CODE HERE
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
-var trueFaveNum = faveNum===trueFaveNum// CODE HERE
+var trueFaveNum = faveNum === 25// CODE HERE
 
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
@@ -39,26 +39,25 @@ else if(age<=16){
 var colorResponse;
 
 var responseCreator = function(param){
-  if(colorResponse="Green"){
-    return colorResponse + " is okay."
+  if(param==="green"){
+    return "Green is okay"
   }
-  else if(colorResponse="Red"){
-    return "I heart "+colorResponse
+  else if(param==="red"){
+    return "I heart red"
   }
   else{
     return "What is your favorite color?"
   }// CODE HERE
 }
-return colorResponse
 
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
 
 function sum(parameter){
-  return parameter*=parameter
+  return parameter+=parameter
 };// CODE HERE
 
 // #10 Create a function called 'greeter' that takes in two parameters, name and number. Have 'greeter' return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values..
 
 function greeter(name, number){
-  return "Hi! I am "+name+" and I am "+number+" years old."
+  return "Hi! I am "+name+" and I am "+number+" years old"
 };// CODE HERE
